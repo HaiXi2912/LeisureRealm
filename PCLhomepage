@@ -1,0 +1,61 @@
+<local:MyCard Title="更新公告" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Text="敬请期待"/>
+    </StackPanel>
+</local:MyCard>
+	
+	<TextBlock Margin="0,5,20,0" FontSize="1" Text="" />
+	
+<local:MyCard Title="最新活动" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Text="敬请期待"/>
+    </StackPanel>
+</local:MyCard>
+	
+	<TextBlock Margin="0,5,20,0" FontSize="1" Text="" />
+	
+		<local:MyCard Title="常用指令" CanSwap="True" IsSwaped="True">
+		    <StackPanel Margin="15,40,23,15">
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,5,0,0" ><local:MyButton Margin="0,0,10,0" Width="40" Height="18" Padding="3,0,3,0"
+				           Text="复制" EventType="复制文本" EventData="/spawn" />
+								<TextBlock TextWrapping="Wrap"  Text="/spawn               回到悠然小镇[主城]"/></StackPanel>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,5,0,0" ><local:MyButton Margin="0,0,10,0" Width="40" Height="18" Padding="3,0,3,0"
+				           Text="复制" EventType="复制文本" EventData="/back" />
+								<TextBlock TextWrapping="Wrap"  Text="/back                  回到上一个地点"/></StackPanel>
+								
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,5,0,0" ><local:MyButton Margin="0,0,10,0" Width="40" Height="18" Padding="3,0,3,0"
+				           Text="复制" EventType="复制文本" EventData="/dback" />
+								<TextBlock TextWrapping="Wrap"  Text="/dback                回到死亡地点"/></StackPanel>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,5,0,0" ><local:MyButton Margin="0,0,10,0" Width="40" Height="18" Padding="3,0,3,0"
+				           Text="复制" EventType="复制文本" EventData="/sethome" />
+								<TextBlock TextWrapping="Wrap"  Text="/sethome            设置家   "/></StackPanel>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,5,0,0" ><local:MyButton Margin="0,0,10,0" Width="40" Height="18" Padding="3,0,3,0"
+				           Text="复制" EventType="复制文本" EventData="/homes" />
+								<TextBlock TextWrapping="Wrap"  Text="/homes               打开家的列表"/></StackPanel>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,5,0,0" ><local:MyButton Margin="0,0,10,0" Width="40" Height="18" Padding="3,0,3,0"
+				           Text="复制" EventType="复制文本" EventData="/msg" />
+								<TextBlock TextWrapping="Wrap"  Text="/msg  [玩家]        私聊"/></StackPanel>
+				<StackPanel Orientation="Horizontal" HorizontalAlignment="left" Margin="0,5,0,0" ><local:MyButton Margin="0,0,10,0" Width="40" Height="18" Padding="3,0,3,0"
+				           Text="复制" EventType="复制文本" EventData="/tpa" />
+								<TextBlock TextWrapping="Wrap"  Text="/tpa    [玩家]        请求传送到玩家身边"/></StackPanel>
+				
+		    </StackPanel>
+		</local:MyCard>
+		<TextBlock Margin="0,5,20,0" FontSize="1" Text="" />
+	
+<local:MyCard Title="欢迎游玩本服务器">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" Text="本服务器养老、悠闲、无目标，自由发展" />
+        <TextBlock Margin="0,5,20,0" FontSize="11" Text="感谢您使用推荐的 PCL2 启动器" />
+		<local:MyHint Margin="0,5,0,7" IsWarn="False"
+		           Text="如果您还没查看 《LRAC协议》 请花十分钟时间查看" />
+        <local:MyListItem Margin="-5,0,-5,0" 
+		                  Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="《LRAC协议》" Info="  新玩家必看,避免做了不该做的事" 
+		                  EventType="打开网页" EventData="https://www.yuque.com/haixi-lifiw/msmvk2/ucropq?#%E3%80%8A%E6%82%A0%E4%B9%8B%E5%A2%83LRAC%E5%8D%8F%E8%AE%AE%E3%80%8B" Type="Clickable" />
+        <local:MyListItem Margin="-5,5,-5,0" 
+		                  Logo="pack://application:,,,/images/Blocks/Fabric.png" Title="《悠之境WIKI》" Info="  详细的更新内容以及其他说明都在WIKI" 
+		                  EventType="打开网页" EventData="https://www.yuque.com/haixi-lifiw/msmvk2" Type="Clickable" />
+		<local:MyHint Margin="0,5,0,7" IsWarn="False"
+		           Text="小技巧: 右下角的音乐可以右键切换音乐" />
+    </StackPanel>
+</local:MyCard>
